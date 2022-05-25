@@ -9,11 +9,13 @@ body {
 }
 
 .header-logo {
-
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .header-link {
-
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .hero {
@@ -23,10 +25,10 @@ body {
 }
 
 .hero-body {
- font-size: 18px;
- color: #E5E7EB;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 #sign-up {
-
+    background-color: #3882F6;
 }
