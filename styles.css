@@ -1,5 +1,14 @@
-.header-logo {
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto';
+}
+
+.header {
     background-color: #1F2937;
+}
+
+.header-logo {
 
 }
 
@@ -8,11 +17,14 @@
 }
 
 .hero {
-
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8
 }
 
 .hero-body {
-
+ font-size: 18px;
+ color: #E5E7EB;
 }
 
 #sign-up {
