@@ -2,6 +2,12 @@
 
 body {
     font-family: 'Roboto';
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    margin: 0;
 }
 
 li {
@@ -10,8 +16,30 @@ li {
     padding: 0;
 }
 
+/* Header styling */
+
 .header {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links-container {
+    display: flex;
+}
+
+.hero-outer-container {
+    display: flex;
+}
+
+.hero-container {
+
 }
 
 .header-logo {
@@ -33,6 +61,11 @@ li {
 .hero-body {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+img {
+    width: 300px;
+    height: 150px;
 }
 
 #sign-up {
