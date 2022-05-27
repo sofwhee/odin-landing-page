@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-/* I chose to separate text, flex, and spacing with an extra line. */
+/* I chose to separate text, flex, and spacing with an empty line. */
 /* I think it's easier to read that way. */
 
 /* CSS code is organized by the order in which elements appear. */
@@ -116,16 +116,70 @@ img {
 
 /* Body 1 styling */
 
+/* put all content in a flexbox, center it, use gap for list */
 
+.body-box {
+
+}
+
+.body-box-container {
+
+}
+
+.body-box-header {
+
+}
+
+.body-box-list-container {
+
+}
+
+.body-box-list {
+
+}
 
 /* Body 2 styling */
 
+.body-box2 {
 
+}
+
+.body-box2-container {
+
+}
+
+.body-box2-quote {
+
+}
+
+.body-box2-quote-name {
+
+}
 
 /* Body 3 styling */
+
+.body-box3 {
+
+}
+
+.call-to-action {
+
+}
+
+.call-to-action-body {
+
+}
 
 .body-box3-container, .sign-up {
     border: #E5E7EB;
 }
 
 /* Footer styling */
+
+.footer {
+
+}
+
+.footer-text {
+    
+}
