@@ -133,6 +133,8 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    padding: 0px 50px;
 }
 
 .body-box-header {
@@ -140,10 +142,13 @@ img {
     font-size: 36px;
     font-weight: 700;
     color: #1F2937;
+
+    padding: 50px;
 }
 
 .body-box-list-container {
-
+    display: flex;
+    gap: 10px;
 }
 
 .body-box-list {
@@ -157,7 +162,7 @@ img {
 }
 
 .body-box2-container {
-
+    padding: 50px;
 }
 
 .body-box2-quote {
