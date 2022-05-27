@@ -16,12 +16,17 @@ li {
     padding: 0;
 }
 
+.content {
+}
+
 /* Header styling */
 
 .header {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
+    
+    padding: 0px 200px;
 }
 
 .header-bar-container {
@@ -29,19 +34,28 @@ li {
     justify-content: space-between;
     align-items: center;
 
-    margin: 10px 200px;
+    padding-top: 16px;
 }
 
 .header-links-container {
     display: flex;
+    gap: 25px;
 }
 
 .hero-outer-container {
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+
+    margin: 100px 0px;
 }
 
 .hero-container {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
 }
 
 .header-logo {
@@ -59,19 +73,36 @@ li {
 .hero {
     font-size: 48px;
     font-weight: bolder;
-    color: #f9faf8
+    color: #f9faf8;
 }
 
 .hero-body {
     font-size: 18px;
+    font-weight: 300;
     color: #E5E7EB;
 }
 
+.hero-image {
+    /* flexbox to contain hero-image */
+    display:flex
+}
+
 img {
-    width: 300px;
-    height: 150px;
+    /* This keeps it from getting distorted, align-self is 'stretch' by default */
+    align-self: center;
+    max-width: 100%;
 }
 
 #sign-up {
     background-color: #3882F6;
+    color: #F9FAF8;
+    font-family: 'Roboto';
+    font-weight: 500;
+
+    align-self: flex-start;
+
+    border: none;
+    border-radius: 5px;
+    padding: 5px 22px;
+    margin-top: 10px;
 }
