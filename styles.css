@@ -91,6 +91,7 @@ li {
 
 .hero-image {
     /* contains img */
+    /* RFI: I couldn't make the image share 50% of the space, so I eyeballed flex-basis */
     flex: 1 1 70%;
 }
 
@@ -186,15 +187,29 @@ img {
 }
 
 .body-box2-container {
-    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 150px;
 }
 
 .body-box2-quote {
-
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
 }
 
 .body-box2-quote-name {
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-weight: 700;
 
+    align-self: flex-end;
+
+    padding-right: 130px;
 }
 
 /* Body 3 styling */
