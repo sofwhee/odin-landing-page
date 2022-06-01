@@ -220,6 +220,8 @@ img {
     align-items: center;
 }
 
+/* Room for improvement (too reliant on padding for styling) */
+
 .body-box3-container{
     border: #E5E7EB;
     background-color: #3882F6;
@@ -260,7 +262,6 @@ img {
     white-space: no;
 
     align-self: flex-start;
-    
 
     border: 1px solid #F9FAF8;
     border-radius: 7px;
@@ -271,9 +272,16 @@ img {
 /* Footer styling */
 
 .footer {
-
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-text {
+    font-size: 16px;
+    font-weight: 300;
+    color: #E5E7EB;
 
+    margin: 20px;
 }
