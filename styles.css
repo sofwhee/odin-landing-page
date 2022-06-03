@@ -33,7 +33,7 @@ li {
     display: flex;
     flex-direction: column;
     
-    padding: 0px 200px;
+    /* padding: 0px 200px; */
 }
 
 .header-bar-container {
@@ -41,7 +41,8 @@ li {
     justify-content: space-between;
     align-items: center;
 
-    padding-top: 16px;
+    padding: 16px 100px;
+    padding-bottom: 0px;
 }
 
 .header-links-container {
@@ -63,7 +64,7 @@ li {
 
 .hero-outer-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 50px;
 
@@ -71,6 +72,9 @@ li {
 }
 
 .hero-container {
+    /* keeps the text width an appealing width */
+    width: 400px;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -91,14 +95,14 @@ li {
 
 .hero-image {
     /* contains img */
-    /* RFI: I couldn't make the image share 50% of the space, so I eyeballed flex-basis */
-    flex: 1 1 70%;
 }
 
-img {
-    /* This keeps it from getting distorted, align-self is 'stretch' by default */
-    align-self: center;
-    max-width: 100%;
+.hero-image img {
+    /* This is supposed to be the max size, and it shrinks below, but it is doing nothing right now. */
+    max-width: 700px;
+    /* Flex item (image) isn't shrinking */
+    /* Because flex items have diff defaults than block elements, need to set width: 100% (block default) */
+    width: 100%;
 }
 
 .sign-up {
@@ -150,6 +154,7 @@ img {
 .body-box-list-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 50px;
 
     margin-bottom: 125px;
@@ -159,16 +164,20 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
 }
 
 .body-box-list-item1 {
     border: 4px solid #3882F6;
     border-radius: 15px;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+}
 
-    min-height: 50px;
-    min-width: 50px;
-    max-height: 200px;
-    max-width: 200px;
+.body-box-list-item1 img {
+    object-fit: cover; 
+    height: 200px;
 }
 
 .body-box-list-item2 {
