@@ -67,6 +67,7 @@ li {
     justify-content: center;
     align-items: center;
     gap: 50px;
+    flex-wrap: wrap-reverse;
 
     margin: 100px 0px;
 }
@@ -193,14 +194,16 @@ li {
 
 .body-box2 {
     background-color: #E5E7EB;
-}
-
-.body-box2-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
 
+.body-box2-container {
+    display:flex;
+    flex-direction: column;
+    max-width: 1000px;
     padding: 150px;
 }
 
@@ -217,8 +220,6 @@ li {
     font-weight: 700;
 
     align-self: flex-end;
-
-    padding-right: 130px;
 }
 
 /* Body 3 styling */
