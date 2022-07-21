@@ -14,12 +14,12 @@ body {
   flex-direction: column;
   justify-content: space-around;
 
-  margin: 0;
+  margin:  0;
 }
 
 li {
   list-style-type: none;
-  margin: 0;
+  margin:  0;
   padding: 0;
 }
 
@@ -118,10 +118,10 @@ li {
 
   align-self: flex-start;
 
-  border: none;
-  border-radius: 5px;
-  padding: 5px 22px;
-  margin-top: 10px;
+  border:         none;
+  border-radius:   5px;
+  padding:    5px 22px;
+  margin-top:     10px;
 }
 
 
@@ -176,10 +176,10 @@ li {
 }
 
 .body-box-list-item1 {
-  border: 4px solid #3882F6;
+  border:         4px solid #3882F6;
   border-radius: 15px;
-  height: 200px;
-  width: 200px;
+  height:       200px;
+  width:        200px;
   overflow: hidden;
 }
 
@@ -214,7 +214,7 @@ li {
   display:flex;
   flex-direction: column;
   max-width: 1000px;
-  padding: 150px;
+  padding:    150px;
 }
 
 .body-box2-quote {
