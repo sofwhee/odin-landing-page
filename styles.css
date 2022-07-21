@@ -8,19 +8,19 @@
 
 
 body {
-    font-family: 'Roboto';
+  font-family: 'Roboto';
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 
-    margin: 0;
+  margin: 0;
 }
 
 li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .content {
@@ -31,283 +31,283 @@ li {
 \*----------------------------------*/
 
 .header {
-    background-color: #1F2937;
-    display: flex;
-    flex-direction: column;
-    
-    /* padding: 0px 200px; */
+  background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  
+  /* padding: 0px 200px; */
 }
 
 .header-bar-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-    padding: 16px 100px;
-    padding-bottom: 0px;
+  padding: 16px 100px;
+  padding-bottom: 0px;
 }
 
 .header-links-container {
-    display: flex;
-    gap: 25px;
+  display: flex;
+  gap: 25px;
 }
 
 .header-logo {
-    font-size: 24px;
-    font-weight: 700;
-    color: #F9FAF8;
+  font-size: 24px;
+  font-weight: 700;
+  color: #F9FAF8;
 }
 
 .header-link {
-    font-size: 18px;
-    font-weight: 300;
-    color: #E5E7EB;
+  font-size: 18px;
+  font-weight: 300;
+  color: #E5E7EB;
 }
 
 .hero-outer-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    flex-wrap: wrap-reverse;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap-reverse;
 
-    margin: 100px 0px;
+  margin: 100px 0px;
 }
 
 .hero-container {
-    /* keeps the text width an appealing width */
-    width: 400px;
+  /* keeps the text width an appealing width */
+  width: 400px;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
 }
 
 .hero {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #f9faf8;
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
 }
 
 .hero-body {
-    font-size: 18px;
-    font-weight: 300;
-    color: #E5E7EB;
+  font-size: 18px;
+  font-weight: 300;
+  color: #E5E7EB;
 }
 
 .hero-image {
-    /* contains img */
+  /* contains img */
 }
 
 .hero-image img {
-    /* This is supposed to be the max size, and it shrinks below, but it is 
-    doing nothing right now. */
-    max-width: 700px;
-    /* Flex item (image) isn't shrinking */
-    /* Because flex items have diff defaults than block elements, need to set 
-    width: 100% (block default) */
-    width: 100%;
+  /* This is supposed to be the max size, and it shrinks below, but it is 
+  doing nothing right now. */
+  max-width: 700px;
+  /* Flex item (image) isn't shrinking */
+  /* Because flex items have diff defaults than block elements, need to set 
+  width: 100% (block default) */
+  width: 100%;
 }
 
 .sign-up {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    font-family: 'Roboto';
-    font-weight: 500;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-family: 'Roboto';
+  font-weight: 500;
 
-    align-self: flex-start;
+  align-self: flex-start;
 
-    border: none;
-    border-radius: 5px;
-    padding: 5px 22px;
-    margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 22px;
+  margin-top: 10px;
 }
 
 
 /*----------------------------------*\
-            #BODY1-STYLING
+          #BODY1-STYLING
 \*----------------------------------*/
 
 /* put all content in a flexbox, center it, use gap for list */
 
 .body-box {
-    background-color: #F9FAF8;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-color: #F9FAF8;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
 
 .body-box-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    padding: 0px 50px;
+  padding: 0px 50px;
 }
 
 .body-box-header {
-    font-family: 'Roboto';
-    font-size: 36px;
-    font-weight: 700;
-    color: #1F2937;
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: 700;
+  color: #1F2937;
 
-    padding: 50px;
+  padding: 50px;
 }
 
 .body-box-list-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
 
-    margin-bottom: 125px;
+  margin-bottom: 125px;
 }
 
 .body-box-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 .body-box-list-item1 {
-    border: 4px solid #3882F6;
-    border-radius: 15px;
-    height: 200px;
-    width: 200px;
-    overflow: hidden;
+  border: 4px solid #3882F6;
+  border-radius: 15px;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
 }
 
 .body-box-list-item1 img {
-    object-fit: cover; 
-    height: 200px;
+  object-fit: cover; 
+  height: 200px;
 }
 
 .body-box-list-item2 {
-    font-family: 'Roboto';
-    font-size: 18px;
-    font-weight: 300;
-    text-align: center;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
 
-    max-width: 200px;
+  max-width: 200px;
 }
 
 
 /*----------------------------------*\
-            #BODY2-STYLING
+          #BODY2-STYLING
 \*----------------------------------*/
 
 .body-box2 {
-    background-color: #E5E7EB;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .body-box2-container {
-    display:flex;
-    flex-direction: column;
-    max-width: 1000px;
-    padding: 150px;
+  display:flex;
+  flex-direction: column;
+  max-width: 1000px;
+  padding: 150px;
 }
 
 .body-box2-quote {
-    font-family: 'Roboto';
-    font-size: 36px;
-    font-weight: 200;
-    font-style: italic;
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
 }
 
 .body-box2-quote-name {
-    font-family: 'Roboto';
-    font-size: 22px;
-    font-weight: 700;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 700;
 
-    align-self: flex-end;
+  align-self: flex-end;
 }
 
 
 /*----------------------------------*\
-            #BODY3-STYLING
+          #BODY3-STYLING
 \*----------------------------------*/
 
 .body-box3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Room for improvement (too reliant on padding for styling) */
 
 .body-box3-container{
-    border: #E5E7EB;
-    background-color: #3882F6;
-    border-radius: 5px;
+  border: #E5E7EB;
+  background-color: #3882F6;
+  border-radius: 5px;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 125px;
-    
-    padding: 30px 80px;
-    margin: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 125px;
+  
+  padding: 30px 80px;
+  margin: 100px;
 }
 
 .call-to-action-container {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
 
 .call-to-action {
-    color: #F9FAF8;
-    font-family: 'Roboto';
-    font-weight: 700;
+  color: #F9FAF8;
+  font-family: 'Roboto';
+  font-weight: 700;
 }
 
 .call-to-action-body {
-    color: #E5E7EB;
-    font-family: 'Roboto';
-    font-size: 12px;
+  color: #E5E7EB;
+  font-family: 'Roboto';
+  font-size: 12px;
 }
 
 .body-box3-container .sign-up {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    font-family: 'Roboto';
-    font-weight: 500;
-    white-space: no;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-family: 'Roboto';
+  font-weight: 500;
+  white-space: no;
 
-    align-self: flex-start;
+  align-self: flex-start;
 
-    border: 1px solid #F9FAF8;
-    border-radius: 7px;
-    padding: 5px 22px;
-    margin-top: 10px;
+  border: 1px solid #F9FAF8;
+  border-radius: 7px;
+  padding: 5px 22px;
+  margin-top: 10px;
 }
 
 
 /*----------------------------------*\
-            #FOOTER-STYLING
+          #FOOTER-STYLING
 \*----------------------------------*/
 
 .footer {
-    background-color: #1F2937;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-text {
-    font-size: 16px;
-    font-weight: 300;
-    color: #E5E7EB;
+  font-size: 16px;
+  font-weight: 300;
+  color: #E5E7EB;
 
-    margin: 20px;
+  margin: 20px;
 }
