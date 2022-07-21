@@ -26,7 +26,9 @@ li {
 .content {
 }
 
-/* Header styling */
+/*----------------------------------*\
+            #HEADER-STYLING
+\*----------------------------------*/
 
 .header {
     background-color: #1F2937;
@@ -99,10 +101,12 @@ li {
 }
 
 .hero-image img {
-    /* This is supposed to be the max size, and it shrinks below, but it is doing nothing right now. */
+    /* This is supposed to be the max size, and it shrinks below, but it is 
+    doing nothing right now. */
     max-width: 700px;
     /* Flex item (image) isn't shrinking */
-    /* Because flex items have diff defaults than block elements, need to set width: 100% (block default) */
+    /* Because flex items have diff defaults than block elements, need to set 
+    width: 100% (block default) */
     width: 100%;
 }
 
@@ -120,7 +124,10 @@ li {
     margin-top: 10px;
 }
 
-/* Body 1 styling */
+
+/*----------------------------------*\
+            #BODY1-STYLING
+\*----------------------------------*/
 
 /* put all content in a flexbox, center it, use gap for list */
 
@@ -190,7 +197,10 @@ li {
     max-width: 200px;
 }
 
-/* Body 2 styling */
+
+/*----------------------------------*\
+            #BODY2-STYLING
+\*----------------------------------*/
 
 .body-box2 {
     background-color: #E5E7EB;
@@ -222,7 +232,10 @@ li {
     align-self: flex-end;
 }
 
-/* Body 3 styling */
+
+/*----------------------------------*\
+            #BODY3-STYLING
+\*----------------------------------*/
 
 .body-box3 {
     display: flex;
@@ -279,7 +292,10 @@ li {
     margin-top: 10px;
 }
 
-/* Footer styling */
+
+/*----------------------------------*\
+            #FOOTER-STYLING
+\*----------------------------------*/
 
 .footer {
     background-color: #1F2937;
