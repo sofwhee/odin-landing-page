@@ -102,11 +102,11 @@ li {
 
 .hero-image img {
   /* This is supposed to be the max size, and it shrinks below, but it is 
-  doing nothing right now. */
+     doing nothing right now. */
   max-width: 700px;
   /* Flex item (image) isn't shrinking */
   /* Because flex items have diff defaults than block elements, need to set 
-  width: 100% (block default) */
+     width: 100% (block default) */
   width: 100%;
 }
 
@@ -256,7 +256,7 @@ li {
   gap: 125px;
   
   padding: 30px 80px;
-  margin: 100px;
+  margin:      100px;
 }
 
 .call-to-action-container {
@@ -288,8 +288,8 @@ li {
 
   border: 1px solid #F9FAF8;
   border-radius: 7px;
-  padding: 5px 22px;
-  margin-top: 10px;
+  padding:  5px 22px;
+  margin-top:   10px;
 }
 
 
