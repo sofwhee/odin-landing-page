@@ -69,6 +69,7 @@ p {
 }
 
 .header-link {
+  text-decoration: none;
   font-size: 18px;
   font-weight: 300;
   color: #E5E7EB;
@@ -124,6 +125,7 @@ p {
   color: #F9FAF8;
   font-family: 'Roboto';
   font-weight: 500;
+  font-size:  16px;
 
   align-self: flex-start;
 
