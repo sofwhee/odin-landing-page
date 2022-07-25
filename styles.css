@@ -23,6 +23,16 @@ li {
   padding: 0;
 }
 
+h1 {
+  margin:     0px;
+}
+
+p {
+  margin:     0px;
+}
+
+
+
 .content {
 }
 
@@ -64,6 +74,11 @@ li {
   color: #E5E7EB;
 }
 
+/*----------------------------------*\
+            #HERO-STYLING
+\*----------------------------------*/
+
+
 .hero-outer-container {
   display: flex;
   justify-content: center;
@@ -81,7 +96,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 5px;
+  gap: 25px;
 }
 
 .hero {
@@ -101,13 +116,7 @@ li {
 }
 
 .hero-image img {
-  /* This is supposed to be the max size, and it shrinks below, but it is 
-     doing nothing right now. */
   max-width: 700px;
-  /* Flex item (image) isn't shrinking */
-  /* Because flex items have diff defaults than block elements, need to set 
-     width: 100% (block default) */
-  width: 100%;
 }
 
 .sign-up {
@@ -165,7 +174,7 @@ li {
   flex-wrap: wrap;
   gap: 50px;
 
-  margin-bottom: 125px;
+  margin-bottom: 75px;
 }
 
 .body-box-list {
@@ -214,7 +223,7 @@ li {
   display:flex;
   flex-direction: column;
   max-width: 1000px;
-  padding:    150px;
+  padding:    125px;
 }
 
 .body-box2-quote {
@@ -269,6 +278,7 @@ li {
   color: #F9FAF8;
   font-family: 'Roboto';
   font-weight: 700;
+  font-size: 24px;
 }
 
 .call-to-action-body {
